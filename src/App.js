@@ -13,7 +13,7 @@ function App() {
 
   return (
     <div className="App">
-      <h1>Add Text and Color</h1>
+      <h1>Text & Color</h1>
       <form onSubmit={submitForm}>
         <input
           className="text-input"
