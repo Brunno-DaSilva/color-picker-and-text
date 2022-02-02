@@ -1,10 +1,12 @@
+@import url("https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap");
+
 .App {
   text-align: center;
   width: 100vw;
   height: 100vh;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
 }
 
@@ -16,6 +18,7 @@
 h1 {
   font-size: 5rem;
   color: #22cbfa;
+  font-family: "Alfa Slab One", cursive;
 }
 
 h1 span {
@@ -29,23 +32,6 @@ p {
 p span {
   font-size: 3rem;
   color: #393e47;
-}
-.userlogin {
-  width: 100%;
-  display: flex;
-  flex-wrap: wrap;
-}
-li {
-  list-style: none;
-  color: #5d6064;
-  font-size: 2rem;
-  margin: 0 1rem;
-}
-li:nth-child(odd) {
-  list-style: none;
-  color: #22cbfa;
-  font-size: 2rem;
-  margin: 0 1rem;
 }
 
 button {
@@ -68,22 +54,36 @@ form {
 }
 input {
   margin: 0 3rem;
+  border: 1px solid #c5c5c5;
+  color: #5d6064;
+  font-size: 2rem;
+}
+input[type="text"] {
+  padding: 1rem;
+  border-radius: 0.25rem;
+}
+input[type="color"] {
+  border-radius: 0.25rem;
+  width: 75px;
+  height: 60px;
+  cursor: pointer;
 }
 
 .div {
-  min-width: 300px;
-  height: 300px;
+  min-width: 550px;
+  height: 500px;
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 1px solid #cecece;
   border-radius: 0.5rem;
   padding: 0 1rem;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+  margin-top: 3rem;
 }
 
 .div h2 {
   color: #f8f8f8;
   -webkit-text-stroke: 1px rgb(0, 3, 37);
-  font-size: 5rem;
+  font-size: 4rem;
+  font-family: "Alfa Slab One", cursive;
 }

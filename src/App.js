@@ -13,8 +13,10 @@ function App() {
 
   return (
     <div className="App">
+      <h1>Add Text and Color</h1>
       <form onSubmit={submitForm}>
         <input
+          className="text-input"
           value={userText}
           onChange={(e) => setUserText(e.target.value)}
           type="text"
