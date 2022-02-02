@@ -1,0 +1,89 @@
+.App {
+  text-align: center;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+h1 {
+  font-size: 5rem;
+  color: #22cbfa;
+}
+
+h1 span {
+  font-size: 6rem;
+  color: #393e47;
+}
+p {
+  font-size: 2rem;
+  color: #fa9522;
+}
+p span {
+  font-size: 3rem;
+  color: #393e47;
+}
+.userlogin {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+li {
+  list-style: none;
+  color: #5d6064;
+  font-size: 2rem;
+  margin: 0 1rem;
+}
+li:nth-child(odd) {
+  list-style: none;
+  color: #22cbfa;
+  font-size: 2rem;
+  margin: 0 1rem;
+}
+
+button {
+  font-size: 2rem;
+  padding: 1.5rem;
+  border: none;
+  background: #22cbfa;
+  color: #f8f8f8;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  margin: 3;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  margin: 3rem;
+}
+input {
+  margin: 0 3rem;
+}
+
+.div {
+  min-width: 300px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #cecece;
+  border-radius: 0.5rem;
+  padding: 0 1rem;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+}
+
+.div h2 {
+  color: #f8f8f8;
+  -webkit-text-stroke: 1px rgb(0, 3, 37);
+  font-size: 5rem;
+}
